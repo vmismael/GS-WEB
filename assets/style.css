@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+  }
+
+.header{
+    background-color:  rgba(0, 174, 208, 255);
+    padding-inline: 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: url('images/Topo Oceano.jpg') no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+
+.lixo, .imgPeixe, .imgCriancas, .imgOcean, .imgCosta {
+    height: 500px;
+    width: 900px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 174, 208, 255);
+    padding: 10px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: rgb(5, 122, 255);
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section:nth-child(even) {
+    background-color: #bde3ec;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.lixeira img, .objetivos img {
+    max-width: 100%;
+}
+
+.content-section {
+    background-color: #e0f7fa;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.content p {
+    max-width: 600px;
+    text-align: left;
+    margin: 10px;
+}
+
+footer#contato {
+    background-color: rgba(0, 174, 208, 255);
+    background-image: linear-gradient(rgba(0, 176, 209, 255), rgba(2, 161, 200, 255));
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+
+.imgLogo {
+    height: 200px;
+    width: 200px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .content img, .content p {
+        max-width: 100%;
+    }
+}
+
+.area1 {
+    visibility: hidden;
+}

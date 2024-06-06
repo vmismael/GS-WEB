@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+    background-color: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    background: url('images/Topo Oceano.jpg') no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+  }
+  
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    width: 400px;
+    max-width: 100%;
+    min-height: 400px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-weight: 900;
+    margin: 0 0 20px 0;
+    color: rgba(0, 174, 208, 255); 
+    position: absolute;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; 
+}
+
+input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: calc(100% - 30px); 
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container input {
+    width: calc(100% - 30px);
+    display: inline-block;
+}
+
+.password-container i {
+    position: absolute;
+    right: 10px;
+    top: 35%;
+    cursor: pointer;
+    color: #aaa;
+}
+
+button {
+    border: none;
+    padding: 12px 45px;
+    margin: 20px 0;
+    background-color: rgba(0, 174, 208, 255);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 80ms ease-in;
+}
+
+button:hover {
+    background-color: rgba(0, 174, 208, 255);
+}
+
+span {
+    font-size: 14px;
+}
+
+a {
+    color: rgba(0, 174, 208, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.back-button {
+    background-color: rgba(0, 174, 208, 255);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #007bb5;
+}
